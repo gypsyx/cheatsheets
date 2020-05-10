@@ -1,2 +1,8 @@
-docker image build --tag test-image-name .  //. implies Dockerfile in the cwd
-docker container run test-image-name --detach --publish 8000:8000 --name test-container // to run the above image
+docker image build --tag echo-server .  //. implies Dockerfile in the cwd
+docker container run echo-server --detach --publish 8000:8000 --name echo-server-container // to run the above image
+
+//to get the history of the image echo-server
+docker image history echo-server
+
+docker ps 
+docker logs --tail=0 -f echo-server-container 
