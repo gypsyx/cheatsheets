@@ -1,0 +1,2 @@
+docker image build --tag test-image-name .  //. implies Dockerfile in the cwd
+docker container run test-image-name --detach --publish 8000:8000 --name test-container // to run the above image
