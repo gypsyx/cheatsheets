@@ -6,3 +6,6 @@ docker image history echo-server
 
 docker ps 
 docker logs --tail=0 -f echo-server-container 
+
+docker image push echo-server //pushes to docker hub, need to be logged in
+docker image pull echo-server //just pulls the image into local cache.
