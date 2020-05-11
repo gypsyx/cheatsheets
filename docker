@@ -1,5 +1,9 @@
-docker image build --tag echo-server .  //. implies Dockerfile in the cwd
-docker container run echo-server --detach --publish 8000:8000 --name echo-server-container // to run the above image
+
+// builds image called 'echo-server' from the Dockerfile in the current dir
+docker image build --tag echo-server . 
+
+// to run the above image
+docker container run echo-server --detach --publish 8000:8000 --name echo-server-container 
 
 //to get the history of the image echo-server
 docker image history echo-server
