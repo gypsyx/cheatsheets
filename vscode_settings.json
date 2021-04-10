@@ -1,0 +1,39 @@
+{
+    "workbench.panel.defaultLocation": "bottom",
+    "workbench.editor.enablePreview": false,
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 18,
+    "zenMode.hideLineNumbers": false,
+    "terminal.explorerKind": "external",
+    "terminal.integrated.fontSize": 16,
+    // "python.autoComplete.showAdvancedMembers": false,
+    // "editor.wordBasedSuggestions": false,
+    "editor.quickSuggestions":false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.parameterHints.enabled": true,
+    // "editor.fontFamily": "'monospace'",
+    "extensions.ignoreRecommendations": true,
+    "window.zoomLevel": 0.75,
+    "workbench.tree.indent": 12,
+    "terminal.integrated.fontWeightBold": "normal",
+    "editor.lineNumbers": "on",
+    "workbench.activityBar.visible": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.autoReveal": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "workbench.colorCustomizations": {
+    },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
+}
